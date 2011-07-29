@@ -1,0 +1,41 @@
+Class notes for Java session 4
+
+classes, constructors
+-constructor, or new object is said to create new memory, the object has to be stored somewhere
+-dot operator, calls a method, in order to do that we need an object on which to call the method (using the HelloWorld demo for reference)(also using HelloDefaultConstructor)
+
+-the basics: defining a method, creating an object, using the method to call on the object
+-fields or instance variables are sometimes called attributes or data
+-method is sometimes called behavior
+-if there is a dot operator, there has to be an object on the left
+
+-constructor versus method
+method has return type of string, if we don't want to return a string use a void method, with void methods, there is the option to add a return as a conditional way to break out of method, you are never required to use a return but you are allowed to.
+-matching signatures, matching data types and order
+
+-check out ParameterDemo and ParamertizedConstructorDemo - the homework will be similar to this, the homework should also include a main
+
+-the purpose of constructors: to , the object, don't have to use a customized constructor
+-you can only use a given signature once
+-program will not run without main, main does not necessarily need the class file included within it
+-in professional programming, there may be many small class files that don't include main. Then there may be a different main that can call each class file. It's a little bit more difficult if files are in different directories
+
+terminology:
+	you create an object, you define a constructor
+	
+Quiz Stuff:
+
+1) instance variable or length field, not the method (? i think)
+2. property - good to know that there are multiple names for the same things
+3. should be verbs, the behavior of the object
+4. class
+5. lower case, upper case
+6. for a void method, it will stop the method, in a method that is not void, it will return the return value 
+7. false
+8. argument, what makes a parameter formal is that the data type is specified (i.e. int i), during the runtime argument, the data type does not need
+to be specified
+9. object
+10. dot
+
+-Garbage Collection
+	-frees up memory so that we don't have to overwrite a place in memory, looks for whether anything wants to use a specific object name, periodically it'll go through and clear up memory, can create a finalize method, use the keyword static in order to avoid creating an object

@@ -1,0 +1,36 @@
+7/18/11
+
+Strings have double quotes, characters have single quotes
+-look at StringDemo from class examples
+-length method measures length of the string
+-learning how to use the Java API, there will be listed constructors with summaries, although they are not all user friendly
+-substring, even though it counts from 0, it doesn't count directly 0-5 (example), endIndex - 1
+-homework will use strings in a loop and non-loop scenario
+-now StringsDemo, creating an array of strings, note the difference between a for-each loop and a regular for loop
+-for homework, prof gives us some use cases examples, we don't have to use them but it might be easiest to use them
+-field, constructor, method are the types of members a class can have
+-you cannot make a method call without parentheses, every string has a length method, every array has a length field, an array is an object
+-strings are immutable, once strings are created they cannot be changed, 
+-ternary operator
+-if x is less than 0, then y = 10: if it is false, then y = 20
+-for question number 5 check out Class ArrayIndexOutOfBoundsException
+
+
+
+String[] daysOfWeek = new String[7]
+
+quiz: 
+
+1) type
+2) String[] daysOfWeek = new String[7]
+3) String[] dw = { "Monday", "Tuesday"};
+4) take a look at the For Each example, for(String s : dw //like in number 3// )
+System.println.out(s);
+5) has something to do with length vs index and printing, read up to get this one!
+6) yes
+7) boolean
+8) command line arguments
+9) check out example if x is less than 0, then y = 10: if it is false, then y = 20
+, write this as code 
+10) false
+ 

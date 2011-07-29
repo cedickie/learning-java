@@ -1,0 +1,25 @@
+Class Notes 6/27/11
+
+-the dot operator grants access to a member of the class
+-good to note that multiplication will come before addition or subtraction, it does not matter the order in which the equation is written, unless, of course, parentheses specify otherwise
+
+Program Controls
+
+if Statement is probably the easiest to understand
+-first condition is "if," ones in the middle are "else if" the last one is just "else."
+
+Loops loops loops
+-can get the same logic using "while" or "for"
+-decide when to use while, for, or do. Typically don't use while because you can use for, for is conventional, do will prompt another loop
+
+-compiler wants you to be concise, it doesn't like duplicate code
+
+-for loop is the most common loop, there are uses for the infinite loop too!
+
+skipping ahead to object oriented java
+-the constructor does the initialization 
+-there is a default constructor that's invisible, can add a customization 
+, you still have to call some constructor, whether that's the default or the custom constructor
+-must know the difference between the method call and the method definition
+-need to know the difference between the constructor and the method, methods can be polymorphic
+-an object is an instance of a class

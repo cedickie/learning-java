@@ -1,0 +1,38 @@
+1. Which floating point type is the most important in Java?
+Double
+
+2. Write the following: first the "equal to" operator, then the "assignment" operator.
+equal to: == ; assignment: =
+
+3. Write the symbol for the operator that returns the remainder of a division operation.
+%
+
+4. What are the data types of the following?: first 10.0 and then 10
+10.0 is a floating point and 10 is an integer.
+
+5. Write the operators for (a) OR and (b) short-circuit AND
+OR: | ; short-circuit AND: &&
+
+6. True or false: the two boolean types are the string literals "true" and "false".
+True
+
+7. Write the escape sequence for a new line.
+\n
+
+8. The ___________ of a variable is the code block in which the variable is declared.
+declaration
+
+9. If the compiler error is "possible loss of _____________", you need to cast.
+precision
+
+10. Assume we have declared double BOILING_POINT = 100.00;
+Write the code that casts the value of this constant to an integer value and stores it in int MY_INT_BOILING_POINT.
+
+class BOILING_POINT {
+	public static void main(String [] args) {
+		double BOILING_POINT = 100.00;
+		int MY_INT_BOILING_POINT = (int)BOILING_POINT;
+		
+		System.out.println(MY_INT_BOILING_POINT);
+	}
+}

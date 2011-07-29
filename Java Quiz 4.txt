@@ -1,0 +1,25 @@
+1. A string has the length() method to represent its number of characters. An array has the instance variable or length field 
+to represent its number of elements, whether populated or not.
+
+2. Another name for an instance variable is data, attribute, field, or property.
+
+3. Unlike C or C++, Java does not use the term "function" or "procedure". The Java term for the code that defines behavior on an object
+is method, and the method name should not be a noun but rather a verb.
+
+4. A constructors' name must match that of the class for which it performs initialization when an instance is created.
+
+5. By convention, a method name begins with a lower case letter while a constructor name begins with a capital letter.
+
+6. What does the keyword "return" do to the execution of a method that is void? What does the keyword "return" do if the method is not void?
+For a void method, it will stop the method. In a method that is not void, it will return the value.
+
+7. True or false: Like a void method, a constructor must specify a return value of void.
+False
+
+8. If a forma parameter is specified in a method definition, a call to that method must include a runtime argument of a matching 
+data type.
+
+9. The new operator allocates memory for a newly created object.
+
+10. To call a method on an object (or of a class), or to access the instance variables of an object (or static variables of a class),
+use the dot operator between the name of the object (or class) and the name of the method.

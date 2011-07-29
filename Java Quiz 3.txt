@@ -1,0 +1,38 @@
+An if statement must present a test that evaluates to which data type?
+Boolean
+
+What statement can you add after if and else if to handle any cases they do not catch?
+else
+
+True or false: A case in a switch expression can check for a floating-point value.
+false
+
+The following is an ______________ loop: for(;;) { }
+infinite
+
+Which type of loop is guaranteed to run at least once?
+do while
+
+Rewrite the following as a for loop:
+int i = 0;
+while(i < 5)
+{ System.out.println(i); 
+  i++;
+}
+
+for (int i = 0; i < 5; i++) {
+	System.out.println(i);
+}
+
+Write the keyword that causes a loop to terminate.
+break
+
+Write the keyword that causes a loop to go to its next iteration.
+continue
+
+If the awaited condition of a switch does not occur, execution goes to the optional  __________ statement.
+default
+
+If you write a switch in which two cases test for the same constant value, will you get a runtime error or a compiler error?
+compiler error
+
